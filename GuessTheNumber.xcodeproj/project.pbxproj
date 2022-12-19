@@ -11,6 +11,7 @@
 		C022C75B2950A7BB009A55DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C022C75A2950A7BB009A55DA /* ContentView.swift */; };
 		C022C75D2950A7BC009A55DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C022C75C2950A7BC009A55DA /* Assets.xcassets */; };
 		C022C7602950A7BC009A55DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C022C75F2950A7BC009A55DA /* Preview Assets.xcassets */; };
+		C022C7672950AC4C009A55DA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C022C7662950AC4C009A55DA /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C022C75A2950A7BB009A55DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C022C75C2950A7BC009A55DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C022C75F2950A7BC009A55DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C022C7662950AC4C009A55DA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C022C7582950A7BB009A55DA /* GuessTheNumberApp.swift */,
 				C022C75A2950A7BB009A55DA /* ContentView.swift */,
+				C022C7662950AC4C009A55DA /* ButtonView.swift */,
 				C022C75C2950A7BC009A55DA /* Assets.xcassets */,
 				C022C75E2950A7BC009A55DA /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C022C75B2950A7BB009A55DA /* ContentView.swift in Sources */,
+				C022C7672950AC4C009A55DA /* ButtonView.swift in Sources */,
 				C022C7592950A7BB009A55DA /* GuessTheNumberApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
