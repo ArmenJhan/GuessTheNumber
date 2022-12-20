@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ButtonView: View {
     let label: String
-    let action: () -> ()
+    let action: () -> Void
     
     var body: some View {
         Button(label, action: action)

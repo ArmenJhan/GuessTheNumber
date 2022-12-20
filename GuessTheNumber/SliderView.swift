@@ -32,7 +32,6 @@ struct SliderView: UIViewRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator(currentValue: $currentValue)
     }
-    
 }
 
 extension SliderView {
@@ -43,7 +42,7 @@ extension SliderView {
             self._currentValue = currentValue
         }
         
-        @objc  func sliderAction(_ sender: UISlider) {
+        @objc func sliderAction(_ sender: UISlider) {
             currentValue = Double(sender.value)
         }
     }
